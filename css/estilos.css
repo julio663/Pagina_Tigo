@@ -1,0 +1,881 @@
+*{
+    margin: 0;
+}
+
+
+
+   
+    
+    
+    
+    
+    
+    
+    
+    .icono{
+        background: #1652BB ;
+        padding: 20px;
+        display: block;
+        color:white;
+        cursor: pointer;
+        font-size: 1.7em;
+        width: 100%;
+        
+        
+        
+        
+       
+    }
+    .menu{
+        list-style: none;
+        padding: 0;
+        
+        background: #172CA1 ;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s ;
+        font-size: 10px;
+    
+    }
+    
+    .menu__link{
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 1.7em;
+        text-decoration: none;
+    
+        background: #182987  ;
+        padding-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    } 
+    .menu__link:hover{
+        background: #7D96DA ;
+    }
+    .mostrar{
+        margin-left: 0;
+    }
+ 
+    
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:1023px)   {
+        
+    
+    
+    
+        .derechaenca{
+            background: #051956;
+            width: 100%;
+        }    
+    
+    
+    .icono{
+        background: #1652BB ;
+        padding: 15px;
+        display: block;
+        color:white;
+        cursor: pointer;
+        font-size: 1.7em;
+        width: 95%;
+        
+        
+        
+        
+        
+       
+    }
+    .menu{
+        list-style: none;
+        padding: 0;
+        
+        background: #172CA1 ;
+        width: 94%;
+        margin-left: -100%;
+        transition: all 0.5s ;
+        font-size: 10px;
+    
+    }
+    
+    .menu__link{
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 1.7em;
+        text-decoration: none;
+    
+        background: #182987  ;
+        padding-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    } 
+    .menu__link:hover{
+        background: #7D96DA ;
+    }
+    .mostrar{
+        margin-left: 0;
+    }
+    .encabezado{
+        display: none;
+    }
+    .cssmenuu{
+        display: none;
+       
+    }
+    .izquierenca{
+        background: royalblue;
+        width: 100%;
+    }
+    .compromiso{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: darkblue;
+    }
+    .icoizqui,.icodere,.icoizqui,.icodere{
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+    .footer{
+        float: left;
+        font-size: 15px;
+        width: 70%;
+        height: 180px;
+        background: #1A307D;
+        color: white;
+    }
+    .footerderecha{
+        float: right;
+        font-size: 20px;
+        width: 30%;
+        height: 180px;
+        background: #1A307D;
+    }
+    .foo2p{
+        margin-top: 40px;
+    }
+    .iconoss{
+        float: right;
+        margin-top:40px ;
+        padding: 10px;
+        color: white;
+    }
+    .texizquierda{
+        margin-top: 50px;
+        color: #566573;
+    }
+    .qtigo{
+        margin-bottom: 30px;
+    }
+    .texderecha{
+        margin-top: 40px;
+        margin-bottom: 60px;
+       color: #566573;
+    }
+    .texizquierda>p{
+        margin-left: 10px;
+    }
+    .texderecha>p{
+        margin-left: 10px;
+    }
+    .val{
+        text-align: center;
+        color: #0530C9;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+    .val2{
+        text-align: center;
+        color: #566573;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .imagen{
+        margin-left: 10px ;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .imagen2{
+        margin-left: 10px ;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+    }
+    .fotovison{
+        width: 100%;
+        height: 300px;
+    }
+    .titulo{
+        text-align: center;
+        font-size: 18px;
+        color:#566573 ;
+
+    }
+    .colortitulo{
+        color: #0530C9;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .footerderecha{
+        margin-top: 40px;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+    .imagaside{
+        margin-left: 140px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .plantigo{
+        text-align: center;
+        color: #0530C9;
+        font-size: 1.4em;
+    }
+    .wifitigo{
+        text-align: center;
+        color: #0530C9;
+        font-size: 1.4em;
+    }
+    .celulartigo{
+        text-align: center;
+        color: #0530C9;
+        font-size: 1.4em;
+    }
+    .subtitulo{
+        text-align: center;
+        color: #0530C9;
+        font-size: 1.4em;
+        margin:15px ;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .subtitulo2{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #051A65;
+        font-size: 1.5em;
+    }
+    .plantigo2{
+        text-align: center;
+        color: #1E41BF;
+    }
+    .plantigo3{
+        text-align: center;
+        color: #1E41BF;
+    }
+    .botton{
+        margin-left: 145px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        background:#6381ED ;
+    }
+    .asi1{
+        
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .asi2{
+        
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .asi3{
+        
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .paquetes{
+        margin-bottom: 10px;
+        color:#566573 ;
+        margin-left: 30px;
+    }
+    .subtituloo2{
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #051A65;
+        font-size: 1.5em;
+    }
+    .titulocontactos{
+        text-align: center;
+        color:#6381ED ;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .subcontactos{
+        text-align: center;
+        color:#6381ED ;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    .nombree{
+        margin-bottom: 15px;
+        color: darkblue;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .padin{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 6px;
+        
+    }
+    #mensaje{
+        font-size: 10px;
+    }
+    #asuntos{
+        font-size: 10.5px;
+
+    }
+    #nombre{
+        font-size: 10px;
+    }
+    #correo{
+        font-size: 10px;
+    }
+    .padinn{
+        height: 100px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+    }
+    .bottonn{
+        margin-left: 40px;
+        margin-top: 25px;
+        font-size: 1.3em;
+  
+    }
+    .mapsderecha>h2{
+        text-align: center;
+        font-size: 1.7em;
+        color: #051A65;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .mapsderecha>h4{
+        text-align: center;
+        font-size: 1.2em;
+        color:#566573 ;
+        margin-bottom: 30px;
+
+    }
+    .imagenmaps{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contactosubimagen{
+        width: 100%;
+    }
+    
+   
+   
+    
+    
+    }
+
+    
+@media(min-width:1024px){
+    
+    .icono{
+        display: none;
+    }
+    .menu{
+        margin-left: 50px;
+        margin-top:17px ;
+        display: inline-flex;
+       
+      
+        
+       background: #122B83;
+
+    }
+    .menu__link{
+        color: white ;
+        
+        padding: 20px;
+        font-size: 20px;
+        
+        background: #122B83;
+    }
+   .menu__link:hover{
+       background: #7D96DA ;
+
+    }
+    .encabezado{
+        
+        width: 100%;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        
+    }
+    .encabizquier{
+        background: #051956 ;
+        float:left ;
+        width: 65%;
+        height: 30px;
+        margin: 0px;
+        
+    }
+    .encabizquier>p{
+        display:inline;
+        
+        margin: 10px;
+        margin-left: 10px;
+        
+        float: left;
+        color: white;
+
+       
+    }
+    .encabizquier>p:hover{
+        background: #7D96DA;
+        
+        
+    }
+    .encabderecho{
+        background:#051956 ;
+        float: right;
+        width: 35%;
+        height: 30px;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    .encabderecho>p:hover{
+        background: #7D96DA;
+        margin: 15px;
+        
+       
+        
+    }
+    .encabderecho>p{
+        float: right;
+        margin: 4px;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    .cssmenu{
+        background: #122B83;
+        width: 83%;
+        height: 100px;
+        float: left;
+        
+    }
+    .cssmenuu{
+        
+        width: 17%;
+        height: 100px;
+        float: right;
+        background: #122B83;
+       
+
+    }
+    .derechaenca>img{
+        margin-left: 40px;
+        margin-top: 17px;
+    }
+    .derechaenca{
+        float: left;
+        
+        width: 15%;
+        height: 78px;
+        background: #122B83;
+    }
+    .izquierenca{
+        float: right;
+        width: 85%;
+        height: 80px;
+        background-image: url("https://media-exp1.licdn.com/dms/image/C4E1BAQE-LVcJ3ESIhw/company-background_10000/0/1580310106080?e=2159024400&v=beta&t=p9i4c7668JMetEu9eXw04FFgz1jT4Dmy22n1BoLhM4I");
+        
+        background: #122B83;
+        
+        margin-left: 0;
+        display: inline-flex;
+       
+        
+        
+        height: 70px;
+        
+       
+       
+       
+       
+        
+        
+        
+       
+    }
+    
+    .icon{
+        font-size: 1.5em;
+        color: white;
+        margin: 20px;
+        margin-top: 25px;
+        float:right;
+        padding: 10px;
+     
+    }    
+        
+    .icon:hover{
+        background:#7D96DA ;
+        float: right;
+    }
+    .compromiso{
+        text-align: center;
+        color: #2441D3 ;
+        font-size: 2em;
+    }
+    .contenedorizq{
+        float: left;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .contenedordere{
+        float: right;
+        width: 50%;
+        text-align: center;
+    }
+    .icoizqui{
+        float: left;
+        width: 50%;
+    }
+    .icodere{
+        float: right;
+        width: 50% ;
+    }
+    .compromiso{
+        margin-bottom: 120px;
+        margin-top: 100px;
+    }
+    
+    .izquierda{
+        width: 70%;
+        float: left;
+    }
+    .derecha{
+        width: 10%;
+        float: right;
+        background: #263DB2 ;
+    }
+    .footer{
+      
+       width: 75%;
+       height: 150px;
+       background: #2441D3;
+       float: left;
+       
+       background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC3hCvUpWIZe6gh6wGfxiLezbol_Lfd2qqrJfJB_M6CvonfZOk4j9B1JT66PJkNnIL4E&usqp=CAU") ;
+   }
+    
+    .footerderecha{
+        width: 25%;
+       height: 150px;
+       background: #2441D3;
+       float:right;
+       
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC3hCvUpWIZe6gh6wGfxiLezbol_Lfd2qqrJfJB_M6CvonfZOk4j9B1JT66PJkNnIL4E&usqp=CAU") ;
+    
+
+    }
+    .footer>p{
+        color: white;
+        font-size: 20px;
+    }
+    .footerderecha>p{
+        color: white;
+    }
+    .ayuda{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .iconoss{
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        font-size: 1.5em;
+        float: right;
+    }
+    .iconoss:hover{
+        background: #7D96DA;
+    }
+    .texizquierda{
+        
+        width: 50%;
+        height: 150px;
+        float: left;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        color: #566573 ;
+        background: white;
+        
+    }
+    .texderecha{
+        
+        width: 50%;
+        height: 150px;
+        float:right ;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        color: #566573 ;
+        background: white;
+    }
+    .texizquierda>p{
+        margin-left: 40px;
+        font-size: 1.1em;
+    }
+    .texderecha>p{
+        margin-left: 30px;
+        font-size: 1.1em;
+    }
+    .fotovison{
+        margin-left:40px ;
+        margin-right: 10px;
+    }
+    
+    
+    .val{
+        text-align: center;
+        color: #2441D3;
+        font-size: 2em;
+        
+        
+    }
+    .val2{
+        text-align: center;
+        color: #566573 ;
+        font-size: 1.4em;
+        margin-bottom: 30px;
+    }
+    .mison{
+        width: 50%;
+        height: 300px;
+        background: white;
+        float: left;
+        margin-top: 60px;
+    }
+    .vision{
+        width: 50%;
+        height: 300px;
+        background: white;
+        float: right;
+        margin-top: 60px;
+    }
+    .titulo{
+        text-align: center;
+        
+    }
+    .imagen{
+        margin-left: 24%;
+        margin-bottom: 20px;
+    }
+    .colortitulo{
+        color: #2441D3;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .imagen2{
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    .asi1{
+        width: 33%;
+        height: 470px;
+        margin-top: 100px;
+        float: right;
+        color: #2441D3;
+        
+        margin-bottom: 80px;
+        
+       
+    }
+    .asi2{
+        width: 35%;
+        height: 470px;
+        margin-top: 100px;
+        float: right;
+        color: #2441D3;
+        
+        margin-bottom: 80px;
+        
+        
+       
+    }
+    .asi3{
+        width: 32%;
+        height: 470px;
+        margin-top: 100px;
+        float: right;
+        color: #2441D3;
+        
+        margin-bottom: 80px;
+       
+        
+       
+    }
+    
+    
+    .asi1>img{
+        margin-left: 35%;
+        margin-bottom: 30px;
+    }
+    .plantigo{
+      text-align: center;
+      font-size: 1.4em;
+      color:#2441D3 ;
+
+     }
+    .asi2>img{
+    margin-left: 35%;
+    margin-bottom: 30px;
+    }
+    .wifitigo{
+    text-align: center;
+    font-size:1.4em;
+    color:#2441D3 ;
+    
+    
+    }
+    .asi3>img{
+        margin-left: 40%;
+        margin-bottom: 30px;
+    }
+    .celulartigo{
+        text-align: center;
+        font-size: 1.4em;
+        color:#2441D3 ;
+        
+        
+    }
+    .subtitulo{
+        text-align: center;
+        font-size: 2.5em;
+        color:#4F5BD9  ;
+        margin-bottom:60px;
+    }
+    .subtitulo2{
+        font-size: 1.9em;
+        color: #232FA0;
+        text-align: center;
+        margin-top: 40px;
+
+
+    }
+    .paquetes{
+        font-size: 1.0em;
+        color: #566573;
+        margin: 20px;
+        
+    }
+    .plantigo2{
+        text-align: center;
+    }
+    .plantigo3{
+        text-align: center;
+        font-size: 1.9em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .botton{
+        margin-left: 155px;
+        font-size: 1em;
+        background: #28B463;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+        border-radius: 30px;
+    }
+    .botton:hover{
+        background: cornflowerblue;
+    }
+    .subtituloo2{
+        text-align: center;
+        color:#232FA0 ;
+        font-size: 1.9em;
+    }
+    .titulocontactos{
+        text-align: center;
+        color: darkblue;
+        margin-top: 40px;
+    }
+    .subcontactos{
+        color: darkblue;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        
+    }
+    .nombree{
+        margin-bottom: 15px;
+        color: darkblue;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .padin{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        padding: 6px;
+    }
+    .padinn{
+        height: 100px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        
+    }
+    .bottonn{
+        margin-left: 40px;
+        margin-top: 25px;
+        font-size: 1.3em;
+  
+    }
+    .mapsizquierda{
+        float: right;
+        width: 38%;
+        
+        height: 800px;
+    }
+    .mapsderecha{
+        float: right;
+         width: 62%;
+         
+         height: 800px;
+    }
+    .mapsderecha>h2{
+        
+        color: darkblue;
+        margin-bottom: 0.3em;
+        font-size: 1.6em;
+    }
+    .mapsderecha>h4{
+        color:  #566573;
+        margin-bottom: 1.5em;
+        font-size: 1.1em;
+    }
+    .contactosubimagen{
+        margin-bottom: 100px;
+    }
+   
+}
+   
+
+
+    
+   
